@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 import { Link, NavLink} from "react-router-dom";
 import { NavLinks } from "../constant";
-import { IoGlobe } from "react-icons/io5";
+import { SiWebmoney } from "react-icons/si";
 
 export function NavBar() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -67,12 +67,12 @@ export function NavBar() {
  
   return (
     <div className=" w-full ">
-      <Navbar className="sticky text-white shadow-none top-0 z-10 font-poppins max-w-full bg-gradient-to-r from-black to-purple-900 rounded-none border-0 w-full px-[5%] py-2 lg:py-4" placeholder={undefined}  onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-        <div className="flex items-center justify-between w-full">
+      <Navbar className="sticky text-white shadow-none top-0 z-10 font-poppins max-w-full bg-gradient-to-r from-black to-purple-900 rounded-none border-0 w-full p-0" placeholder={undefined}  onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <div className="flex items-center px-[5%] py-2 lg:py-8 max-w-[1440px] mx-auto  justify-between w-full">
         <div>
-          <NavLink to="/" className="text-xl flex items-center gap-2">
-          <IoGlobe />
-          <span className="text-sm font-medium">abiodun_segun10@yahoo.com</span>
+          <NavLink to="/" className="text-xl text-secondary flex items-center gap-2">
+          <SiWebmoney />
+          <span className="text-sm font-medium hover:text-primary text-white">abiodun_segun10@yahoo.com</span>
           </NavLink>
         </div>
         
@@ -81,7 +81,7 @@ export function NavBar() {
           {NavLinks.map((item,index) => (
             <li className={`font-medium md:text-[16px] ${
               clickedIndex === index ? 'text-secondary' : ''
-            } hover:opacity-70`} onClick={() => handleClick(index)} key={index}>
+            } hover:text-primary`} onClick={() => handleClick(index)} key={index}>
               <NavLink
                 to={item.link}
               >

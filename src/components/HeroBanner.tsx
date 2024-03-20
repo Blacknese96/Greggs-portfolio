@@ -5,6 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 import { FaTwitter,FaGithub,FaLinkedinIn } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import CountUpExp from './CountUp';
   
   const socials = [
     {link:'https://github.com/realshegz-github',
@@ -24,9 +25,9 @@ import { useState } from 'react';
       setHover(false);
     };
     return (
-      <div className="w-full relative min-h-screen text-white font-poppins backdrop-blur-lg bg-gradient-to-r from-black to-purple-900 flex flex-col justify-center items-center">
-        <div className=" max-w-[1440px] w-full md:mx-auto px-[5%] py-24">
-          <div className='flex gap-5 justify-around items-center w-full'>
+      <div className="w-full relative h-full min-h-screen text-white font-poppins backdrop-blur-lg bg-gradient-to-r from-black to-purple-900 flex flex-col justify-center items-center">
+        <div className=" max-w-[1440px] w-full md:mx-auto px-[5%] pt-20 pb-10">
+          <div className='flex gap-5 justify-between items-center mb-16 w-full'>
           <div className='flex flex-col max-w-[625px]'>
           <h3 className='text-lg flex items-center'>Hi <motion.div animate={{ rotate: [0, 10, -10, 10, 0] }}
         transition={{ duration: 0.5, repeat: Infinity }} className='w-20 text-xl' role="img" aria-label="wave">👋,</motion.div> I am Abiodun Segun</h3>
@@ -59,17 +60,19 @@ import { useState } from 'react';
             className= {`rotate-3 scale-100 transition-transform ease-in-out duration-300 relative z-10 border-2 hover:border-[#6C4CDF] border-purple-900 bg-nightBlue w-[40%] rounded-3xl`}>
           <img
             src={myImg}
-            className="w-full object-cover max-h-[425px] rounded-3xl"
+            className="w-full object-cover max-h-[450px] rounded-3xl"
             alt="profile-img"
           />
           </motion.div>
           </div>
+          
+          <CountUpExp/>
         </div>
         <div className="hidden md:block">
           <div className=" absolute top-0 right-0">{rightBox}</div>
           <div className="absolute bottom-0 left-0">{leftBox}</div>
           <div className="absolute top-[25%] right-[25%]">{topRightBox}</div>
-          <div className="absolute bottom-0 right-32">{bottomRightBox}</div>
+          <div className="absolute bottom-0 left-32">{bottomRightBox}</div>
         </div>
       </div>
     );
