@@ -31,8 +31,7 @@ const MyService = () => {
         },
     ];
 
-    return (
-        <section className='w-full h-full font-poppins bg-nightBlue'>
+    return (<section className='w-full h-full font-poppins bg-nightBlue'>
             <div className='flex flex-col justify-center items-center py-24 px-[5%] max-w-[1440px] max-auto'>
                 <h2 className='text-2xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>Offered Services</h2>
                 <p className='text-base max-w-[695px] text-center tracking-wider text-[#f4f4f4] mb-8'>Having a website is the fastest way to achieve global outreach. I work to grow startups and companies with my following services</p>
@@ -66,6 +65,7 @@ const MyService = () => {
                 </div>
             </div>
         </section>
+        
     )
 }
 
