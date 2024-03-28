@@ -34,6 +34,7 @@ const Carousel = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
+        pauseOnHover: false,
         autoplaySpeed: 0,
         cssEase: 'linear',
         responsive: [
