@@ -10,14 +10,14 @@ const myExp = [
 
 const education = [
     {year:'November 27, 2023', course:'React Learning Program',tutor:' Andela '},
-    {year:'February, 2020', course:'Business Management & Entrepreneurship',tutor:' National Open University Of Nig.'},
+    {year:'February, 2020', course:'Entrepreneurship & Bus Admin',tutor:' National Open University Of Nig.'},
     {year:'July, 2012', course:'WAEC/NECO',tutor:' Igbobi College Yaba '},
 ]
 const MyEdu = () => {
     
   return (
     <section className='w-full h-full text-white font-poppins bg-nightBlue'>
-            <div className='flex gap-5 justify-between py-24 px-[5%] max-w-[1440px] mx-auto'>
+            <div className='flex gap-[8%] py-24 px-[5%] max-w-[1200px] mx-auto'>
             <div className='w-5/12'>
                 <Zoom duration="1500">
                 <div className='flex gap-3 mb-12 items-center text-[#6C4CDF] text-2xl'>
