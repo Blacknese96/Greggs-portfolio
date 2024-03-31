@@ -90,7 +90,7 @@ export function NavBar() {
             </li>
           ))}
             <div className="flex items-center">
-            <Link to="/contact" className="hidden sm:flex items-center bg-secondary hover:opacity-80 justify-center font-semibold border-white md:text-[16px] text-purple-900 px-5 py-3 rounded-3xl">
+            <Link to="/contact" className="hidden sm:flex items-center bg-secondary hover:opacity-80 justify-center font-semibold border-white md:text-[16px] text-purple-900 px-5 py-3 rounded-lg">
             <button
               type="submit"
             >

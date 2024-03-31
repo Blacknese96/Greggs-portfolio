@@ -76,10 +76,13 @@ const Carousel = () => {
         {skillsData.map((item, index) => (
             <div key={index} className='max-w-[200px] py-5'>
           <motion.div
-             whileHover={{ scale: 1.03, opacity: 0.6}}  className='py-7 max-w-[200px] border border-primary bg-gradient-to-r from-secondary  to-purple-900 mb-5 rounded-3xl'>
+            //  bg-gradient-to-r from-secondary  to-purple-900 
+             whileHover={{ scale: 1.03, opacity: 0.8}}  className='py-7 max-w-[200px] border border-primary 
+             bg-gray-300
+              mb-5 rounded-3xl'>
             <div className="flex flex-col gap-4 items-center justify-center h-full">
             <img src={item.img} alt={item.title} className='object-cover w-24 h-24'/>
-              <p className="font-semibold text-center text-nightBlue text-[20px]">{item.rate}</p>
+              <p className="font-semibold text-center text-primary text-[20px]">{item.rate}</p>
             </div>
           </motion.div>
           

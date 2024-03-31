@@ -1,3 +1,4 @@
+import Contact from "../components/Contact";
 import HappyClient from "../components/HappyClient";
 import HeroBanner from "../components/HeroBanner";
 import MyNewExp from "../components/MyNewExp";
@@ -15,6 +16,7 @@ const Home = () => {
       <MyNewExp/>
       {/* <MyEdu/> */}
       <HappyClient/>
+      <Contact/>
    </div>
   );
 };

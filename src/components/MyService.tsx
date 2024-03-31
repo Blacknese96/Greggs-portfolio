@@ -5,9 +5,11 @@ import {Fade} from 'react-reveal'
 
 const MyService = () => {
     const [hoverIndex, setHoverIndex] = useState(-1); // Initialize hover index state
+    const [initialIndex,setInitialIndex] = useState(0)
 
     const handleMouseEnter = (index) => {
         setHoverIndex(index); // Set the hover index to the index of the item being hovered over
+        setInitialIndex(index)
     };
 
     const handleMouseLeave = () => {
@@ -36,7 +38,7 @@ const MyService = () => {
         <section className='w-full h-full font-poppins bg-nightBlue'>
             <div className='flex flex-col justify-center items-center py-24 px-[5%] max-w-[1440px] mx-auto'>
             <Fade up duration="1500">
-            <h2 className='text-2xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>Offered Services</h2>
+            <h2 className='text-2xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>My Offered Services</h2>
                 <p className='text-base max-w-[725px] text-center tracking-wider text-[#f4f4f4] mb-8'>Global outreach can be accomplished most quickly through a website. With my following services, I help to grow startups and businesses.</p>
             </Fade>
                 
@@ -48,7 +50,7 @@ const MyService = () => {
                             whileHover={{ scale: 1.01 }}
                             onMouseEnter={() => handleMouseEnter(index)}
                             onMouseLeave={handleMouseLeave}
-                            className={`service-list border-b border-blue-gray-900 w-full py-10 px-[30px] gap-5  flex items-center justify-between ${hoverIndex === index ? 'bg-gradient-to-r from-transparent to-purple-900' : index === 0 ? 'bg-gradient-to-r from-blue-gray-900 to-purple-900' : ''}`}
+                            className={`service-list border-b border-blue-gray-900 w-full py-10 px-[30px] gap-5  flex items-center justify-between ${hoverIndex === index ? 'bg-gradient-to-r from-transparent to-purple-900' : index === 0 && initialIndex === 0 ? 'bg-gradient-to-r from-blue-gray-900 to-purple-900' : ''}`}
                         >
                             <div className='flex items-center gap-3 w-[35%]'>
                                 <h4 className='text-lg text-primary'>{service.id}</h4>

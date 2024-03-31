@@ -37,7 +37,7 @@ import CountUpExp from './CountUp';
           <p className='text-base tracking-wider text-[#f4f4f4] mb-8'>I build intuitive and user-friendly experiences by seamlessly implementing design with functionality. Through this, I aim to improve global digital interactions for all users.</p>
           
           <div className='flex gap-3 z-10 items-center'>
-          <Link to="/contact" className="flex gap-2  items-center bg-secondary hover:opacity-80 justify-center font-semibold border-white md:text-[18px] text-purple-900 px-5 py-3 mr-5 rounded-3xl">
+          <Link to="/contact" className="flex gap-2  items-center bg-secondary hover:opacity-80 justify-center font-semibold border-white md:text-[18px] text-purple-900 px-5 py-3 mr-5 rounded-lg">
             <button
               type="submit"
             >
