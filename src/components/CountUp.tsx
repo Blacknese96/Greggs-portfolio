@@ -27,50 +27,50 @@ const CountUpExp = () => {
             transition={{ duration: 0.5 }}
           >
         <div className="w-full ">
-          <div className="flex flex-col text-secondary sm:flex-row sm:justify-between">
+          <div className="grid grid-cols-2 sm:flex gap-5 sm:gap-3 text-secondary sm:justify-between">
             <div className="flex items-center justify-center gap-3 ">
-              <h2 className=" text-2xl">
+              <h2 className="text-lg sm:text-xl md:text-2xl">
                 {counterOn && (
                   <CountUp start={0} end={2} duration={2} delay={0} />
                 )}
               </h2>
-              <p className="font-medium max-w-[150px] text-[18px]">
+              <p className="font-medium max-w-[150px] text-sm sm:text-[18px]">
                 Years of Experience
               </p>
             </div>
 
             <div className="flex items-center justify-center gap-3 ">
-              <h2 className=" text-2xl">
+              <h2 className="text-lg sm:text-xl md:text-2xl">
                 {counterOn && (
                   <CountUp start={0} end={5} duration={2} delay={0} />
                 )}
                 +
               </h2>
-              <p className="font-medium max-w-[150px] text-[18px]">
+              <p className="font-medium max-w-[150px] text-sm sm:text-[18px]">
                 Project Completed
               </p>
             </div>
 
             <div className="flex items-center justify-center gap-2 ">
-              <h2 className=" text-2xl">
+            <h2 className="text-lg sm:text-xl md:text-2xl">
                 {counterOn && (
                   <CountUp start={0} end={50} duration={3} delay={0} />
                 )}
                 +
               </h2>
-              <p className="font-medium max-w-[120px] text-[18px]">
+              <p className="font-medium max-w-[120px] text-sm sm:text-[18px]">
                 Happy Reviews
               </p>
             </div>
 
             <div className="flex items-center justify-center gap-2 ">
-              <h2 className=" text-2xl">
+            <h2 className="text-lg sm:text-xl md:text-2xl">
                 {counterOn && (
                   <CountUp start={0} end={500} duration={3} delay={0} />
                 )}
                 +
               </h2>
-              <p className="font-medium text-[18px]">
+              <p className="font-medium text-sm sm:text-[18px]">
                 Socials
               </p>
             </div>

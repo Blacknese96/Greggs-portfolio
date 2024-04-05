@@ -47,7 +47,7 @@ const Carousel = () => {
             }
           },
           {
-            breakpoint: 800,
+            breakpoint: 868,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 2,
@@ -55,16 +55,16 @@ const Carousel = () => {
             }
           },
           {
-            breakpoint: 640,
+            breakpoint: 740,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               slidesToScroll: 1
             }
           },
           {
-            breakpoint: 411,
+            breakpoint: 511,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1
             }
           }
@@ -74,19 +74,19 @@ const Carousel = () => {
     <div className="w-full font-sans overflow-hidden">
        <Slider {...settings}>
         {skillsData.map((item, index) => (
-            <div key={index} className='max-w-[200px] py-5'>
+            <div key={index} className='max-w-[150px] ss:max-w-[200px] py-5'>
           <motion.div
             //  bg-gradient-to-r from-secondary  to-purple-900 
-             whileHover={{ scale: 1.03, opacity: 0.8}}  className='py-7 max-w-[200px] border border-primary 
+             whileHover={{ scale: 1.03, opacity: 0.8}}  className='pt-5 pb-3 ss:py-7 max-w-[150px] ss:max-w-[200px] border border-primary 
              bg-gray-300
               mb-5 rounded-3xl'>
             <div className="flex flex-col gap-4 items-center justify-center h-full">
             <img src={item.img} alt={item.title} className='object-cover w-24 h-24'/>
-              <p className="font-semibold text-center text-primary text-[20px]">{item.rate}</p>
+              <p className="font-semibold text-center text-primary text-[16px] ss:text-[20px]">{item.rate}</p>
             </div>
           </motion.div>
           
-          <p className="font-semibold text-center text-secondary text-[20px]">{item.title}</p>
+          <p className="font-semibold text-center text-secondary text-[16px] ss:text-[20px]">{item.title}</p>
           </div>
         ))}
       </Slider>
