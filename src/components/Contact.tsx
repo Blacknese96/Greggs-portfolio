@@ -15,12 +15,11 @@ const Contact = () => {
     </div>
     <h2 className="text-lg sm:text-xl text-center sm:text-start max-w-[426px] leading-[49px] mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary">Let’s work together!</h2>
     
-    <p className="text-base sm:max-w-[522px] text-center sm:text-left mb-20">I design and code beautifully simple things and i love what i do. Just simple like that! 
+    <p className="text-base sm:max-w-[522px] text-center sm:text-left mb-20">Have a question for me? Whether it's product, training, bugs or anything in between, feel free to reach out or book an appointment.
     </p>
     
     
     <div className="flex flex-col gap-5">
-    
     
     <a href="mailto:abiodun_segun10@yahoo.com" target="_blank" className='flex items-center gap-3 hover:underline'>
     <MdOutgoingMail color="#6C4CDF" fontSize="20px"/>

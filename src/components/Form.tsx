@@ -26,7 +26,7 @@ const MyForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Perform form submission logic here
-    emailjs.sendForm('service_gb4u5as', 'template_ru3127l', e.target, 'F_sBUATQ3YTL6PqUf')
+    emailjs.sendForm('service_s1umydk', 'template_rvhbix1', e.target, 'bX5uTuEepuVqmq7iy')
     .then((result) => {
       console.log('Email sent successfully:', result.status);
       toast.success('Email sent successfully!', {

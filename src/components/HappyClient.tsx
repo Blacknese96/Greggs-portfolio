@@ -3,15 +3,21 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {Fade} from 'react-reveal'
 import SpeechBubble from './SpeechBubble'
-import shegz from '../assets/shegz01.png'
+// import fortune from '../assets/myclient/fortune-crop.png'
+import mark from '../assets/myclient/mark-crop.png'
+import greg from '../assets/myclient/greg-crop.png'
+import john from '../assets/myclient/john.png'
+import josh from '../assets/myclient/josh.png'
+import odun from '../assets/myclient/odun-removebg-preview.png'
 import { Avatar } from '@material-tailwind/react'
 
 const client = [
-  {img:shegz, name:'Abiodun Segun', role:'Frontend Engr', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:shegz, name:'Abiodun Segun', role:'Frontend Engr', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:shegz, name:'Abiodun Segun', role:'Frontend Engr', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:shegz, name:'Abiodun Segun', role:'Frontend Engr', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:shegz, name:'Abiodun Segun', role:'Frontend Engr', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'}
+  {img:mark, name:'Mark Gray', role:'Director & Software Engr.', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
+  {img:odun, name:'Odunayo Oke', role:'UI/UX Designer', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
+  
+  {img:john, name:'John Chimezie', role:'Software Tester & Trainer', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
+  {img:josh, name:'Olabode Joshua', role:'Software Tester', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
+  {img:greg, name:'Greg Otokhina', role:'Devops Engr.', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'}
 ]
 const HappyClient = () => {
   const settings = {
@@ -31,7 +37,7 @@ const HappyClient = () => {
         }
       },
       {
-        breakpoint: 511,
+        breakpoint: 685,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -42,9 +48,9 @@ const HappyClient = () => {
   
   return (
     <section className='w-full h-full text-white font-poppins bg-gradient-to-r from-nightBlue to-purple-900 pb-12'>
-            <div className='flex flex-col justify-center items-center pt-24 pb-12 px-[5%] max-w-[1440px] mx-auto'>
+            <div className='flex flex-col justify-center items-center pt-20 md:pt-24 pb-12 px-[5%] max-w-[1440px] mx-auto'>
             <Fade up duration="1500">
-            <h2 className='text-2xl text-center mb-20 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>What My Client Says?</h2>
+            <h2 className='text-lg sm:text-xl md:text-2xl text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>What My Client Says?</h2>
                 {/* <p className='text-base max-w-[725px] text-center tracking-wider text-[#f4f4f4] mb-8'>Empowering people in new a digital journey with my super services
                 </p> */}
             </Fade>
