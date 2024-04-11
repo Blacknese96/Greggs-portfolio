@@ -33,7 +33,7 @@ import CountUpExp from './CountUp';
           <div className='flex flex-col max-w-[625px]'>
           <h3 className=' sm:text-[18px] font-semibold md:text-lg flex items-center'>Hi <motion.div animate={{ rotate: [0, 10, -10, 10, 0] }}
         transition={{ duration: 0.5, repeat: Infinity }} className='w-20 text-xl' role="img" aria-label="wave">👋,</motion.div> I am Abiodun Segun</h3>
-          <h2 className='text-lg sm:text-xl md:text-2xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF]  to-secondary'>Frontend Developer + <br/> Creative Director</h2>
+          <h2 className='text-lg sm:text-xl md:text-2xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF]  to-secondary'>Frontend Developer + <br/> Technical Trainer</h2>
           <p className='text-sm md:text-base md:tracking-wider text-[#f4f4f4] mb-8'>I build intuitive and user-friendly experiences by seamlessly implementing design with functionality. Through this, I aim to improve global digital interactions for all users.</p>
           
           <div className='flex gap-2 ss:gap-3 z-10 items-center'>
