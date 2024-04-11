@@ -1,24 +1,29 @@
 "use client"
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
-import ScrollTrigger from 'react-scroll-trigger';
+// import ScrollTrigger from 'react-scroll-trigger';
 import { motion } from 'framer-motion';
-
-
-
 
 const CountUpExp = () => {
   const [counterOn, setCounterOn] = useState(false);
   const [ref, inView] = useInView({
     triggerOnce: true, // Only trigger once when the element enters the viewport
   });
+  
+  useEffect(() => {
+    if (inView) {
+      setCounterOn(true);
+    } else {
+      setCounterOn(false);
+    }
+  }, [inView]);
 
   return (
-    <ScrollTrigger
-      onEnter={() => setCounterOn(true)}
-      onExit={() => setCounterOn(false)}
-    >
+    // <ScrollTrigger
+    //   onEnter={() => setCounterOn(true)}
+    //   onExit={() => setCounterOn(false)}
+    // >
       <section className="w-full h-full font-poppins">
     <motion.div
             ref={ref}
@@ -42,7 +47,7 @@ const CountUpExp = () => {
             <div className="flex items-center justify-center gap-3 ">
               <h2 className="text-lg sm:text-xl md:text-2xl">
                 {counterOn && (
-                  <CountUp start={0} end={5} duration={2} delay={0} />
+                  <CountUp start={0} end={10} duration={2} delay={0} />
                 )}
                 +
               </h2>
@@ -79,7 +84,7 @@ const CountUpExp = () => {
           </motion.div>
       </section>
       
-    </ScrollTrigger>
+    // </ScrollTrigger>
   );
 };
 

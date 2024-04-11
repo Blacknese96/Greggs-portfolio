@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaLaptopCode } from 'react-icons/fa'
 import { FaExternalLinkAlt } from "react-icons/fa"
 import { GiBookCover } from 'react-icons/gi'

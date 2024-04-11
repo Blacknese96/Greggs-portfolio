@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CgClose, CgMenuRight } from "react-icons/cg";
 import {
   Navbar,
