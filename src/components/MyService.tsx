@@ -32,11 +32,16 @@ const MyService = () => {
             title: 'Website Maintenance',
             desc: 'From fixing bugs to optimizing user experience, I ensure your website stays fresh, functional, and engaging.',
         },
+        {
+            id: '04',
+            title: 'Technical Trainer',
+            desc: 'Opportunity to impart knowledge and enthusiasm about Web development to the next generation',
+        },
     ];
 
     return (
-        <section className='w-full h-full font-poppins bg-nightBlue'>
-            <div className='flex flex-col justify-center items-center py-20 md:py-24 px-[5%] max-w-[1440px] mx-auto'>
+        <section className='w-full h-full font-poppins bg-nightBlue' id='services'>
+            <div className='flex flex-col justify-center items-center py-20 md:py-24 px-[5%] max-w-[1440px] mx-auto' >
             <Fade up duration="1500">
             <h2 className='text-lg sm:text-xl md:text-2xl text-center mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>My Offered Services</h2>
                 <p className='text-sm sm:text-base max-w-[725px] text-center sm:tracking-wider text-[#f4f4f4] mb-12 sm:mb-8'>Global outreach can be accomplished most quickly through a website. With my following services, I help to grow startups and businesses.</p>

@@ -47,7 +47,7 @@ const HappyClient = () => {
   };
   
   return (
-    <section className='w-full h-full text-white font-poppins bg-gradient-to-r from-nightBlue to-purple-900 pb-12'>
+    <section className='w-full h-full text-white font-poppins bg-gradient-to-r from-nightBlue to-purple-900 pb-12'  id="reviews">
             <div className='flex flex-col justify-center items-center pt-20 md:pt-24 pb-12 px-[5%] max-w-[1440px] mx-auto'>
             <Fade up duration="1500">
             <h2 className='text-lg sm:text-xl md:text-2xl text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>What My Client Says?</h2>

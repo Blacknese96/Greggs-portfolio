@@ -1,5 +1,4 @@
 // SpeechBubble.js
-import React from 'react';
 
 const SpeechBubble = ({ children }) => {
   return (

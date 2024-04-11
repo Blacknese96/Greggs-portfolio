@@ -27,7 +27,7 @@ import CountUpExp from './CountUp';
     };
     return (
       <section className="w-full relative h-full min-h-screen text-white font-poppins backdrop-blur-lg bg-gradient-to-r from-black to-purple-900 flex flex-col justify-center items-center">
-        <div className=" max-w-[1440px] w-full md:mx-auto px-[5%] pt-20 pb-10">
+        <div className=" max-w-[1440px] w-full md:mx-auto px-[5%] pt-12 sm:pt-16 md:pt-20 pb-10">
           <div className='flex flex-col sm:flex-row gap-16 sm:gap-5 justify-between items-center mb-16 w-full'>
           <Fade left duration="1500">
           <div className='flex flex-col max-w-[625px]'>

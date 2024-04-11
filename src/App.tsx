@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import { NavBar } from './layout/MaterialNav';
 import Preloader from './Preloader';
 import { useState, useEffect } from 'react';
+import ScrollToHashElement from './ScrollToHash';
 function App() {
   const [loading, setLoading] = useState(true)
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <ScrollToTop />
+        <ScrollToHashElement />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="*" element={<Nopage />} /> */}

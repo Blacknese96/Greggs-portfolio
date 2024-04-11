@@ -12,8 +12,8 @@ const Home = () => {
    <div className="w-full overflow-hidden">
       <HeroBanner/>
       <MyService/>
-      <MySkill/>
       <MyNewExp/>
+      <MySkill/>
       {/* <MyEdu/> */}
       <HappyClient/>
       <Contact/>
