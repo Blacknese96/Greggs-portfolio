@@ -11,27 +11,27 @@ const workContent = [
   {
     id: "01",
     title: "Phasecurve",
-    desc: " In times of unexpected fuel shortages or emergencies, our rapid response team is available 24/7 to deliver diesel fuel promptly to your site.",
+    desc: " Users' experience, data security, and performance are given top priority, and the website serves as a strong platform to enable corporate training sign-ups..",
     bgImg: phasecurve,
     path: "https://phasecurve.com/",
   },{
     id: "02",
     title: "Gingerex",
-    desc: " We specialize in providing bulk diesel fuel supply to industries and businesses of all sizes, offering competitive pricing .",
+    desc: "I developed a dynamic platform that successfully highlights services and encourages job applications by achieving a balance between visual appeal and functional performance.",
     bgImg: gingerex,
     path: "https://www.gingerexconsultancy.com/",
   },
   {
     id: "03",
     title: "LaygosWatercrafts",
-    desc: " Our comprehensive logistics and haulage services ensure efficient transportation of diesel fuel from our storage facilities to your site.",
+    desc: "My ability to conceptualise, design, and develop web applications that prioritise payment service functionality and security is demonstrated in this project. ",
     bgImg: laygos,
     path: "https://www.laygoswatercrafts.com/",
   },
   {
     id: "04",
     title: "Tiddix",
-    desc: " We offer scheduled home delivery services for residential customers, providing convenient access to diesel fuel.",
+    desc: "Tiddix is an ongoing web app, where I developed more skills in advanced state management & authentication, focused on delivering a seamless experience within the dashboard.",
     bgImg: tiddix,
     path: "https://tiddix.co.uk/",
   },
@@ -50,7 +50,7 @@ const Works = () => {
       className='w-full h-full text-white grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 min-h-[85vh]'
       id='works'
       style={{
-        backgroundImage: hoverIndex !== null ? `linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(${workContent[hoverIndex].bgImg})` : `linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(${workContent[0].bgImg})`,
+        backgroundImage: hoverIndex !== null ? `linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(${workContent[hoverIndex].bgImg})` : `linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(${workContent[0].bgImg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -62,7 +62,9 @@ const Works = () => {
           onMouseEnter={() => setHoverIndex(() => index)} 
           onMouseLeave={() => setHoverIndex(() => null)} 
         >
-          <div className="w-16 h-16 border border-dimWhite flex self-end items-center justify-center rounded-full text-[24px] font-bold">{item.id}</div>
+          <div className={`w-16 h-16 ${
+                hoverIndex === index ? 'text-primary' : 'text-white'
+              } border border-dimWhite flex self-end items-center justify-center rounded-full text-[24px] font-bold`}>{item.id}</div>
 
           <div className='w-full flex flex-col items-center'>
           
@@ -74,7 +76,7 @@ const Works = () => {
           </a>
             
           
-            <p className='text-center mb-8'>
+            <p className='text-center text-sm font-medium mb-8'>
               {item.desc}
             </p>
 
