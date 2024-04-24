@@ -61,9 +61,9 @@ const MyNewExp = () => {
         <div className='max-w-[926px] w-full flex gap-5 flex-col py-7 border-b border-purple-900' key={index}>
             <div className='flex flex-wrap items-center gap-5 justify-between'>
             <div className='flex flex-col gap-3'>
-              <h3 className='font-semibold text-[24px] text-primary'>{item.course}</h3>
+              <h3 className='font-semibold sm:text-[24px] text-primary'>{item.course}</h3>
               
-              <p className='text-base font-medium text-secondary'>{item.year}</p>
+              <p className='sm:text-base font-medium text-secondary'>{item.year}</p>
             </div>
             
             <p className='text-base italic font-medium tracking-wider text-[#f4f4f4]'>

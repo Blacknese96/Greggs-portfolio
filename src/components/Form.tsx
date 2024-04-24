@@ -52,7 +52,7 @@ const MyForm = () => {
   };
 
   return (
-    <form className="w-full sm:max-w-[580px] bg-[#DDDDDD]  p-8" onSubmit={handleSubmit}>
+    <form className="w-full sm:max-w-[580px] bg-[#DDDDDD] px-5 py-8 ss:p-8" onSubmit={handleSubmit}>
     <ToastContainer />
       <div className="mb-4">
         <label className="block text-[#37393F] text-sm font-bold mb-2" htmlFor="name">
