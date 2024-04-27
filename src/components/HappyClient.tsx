@@ -12,12 +12,12 @@ import odun from '../assets/myclient/odun-removebg-preview.png'
 import { Avatar } from '@material-tailwind/react'
 
 const client = [
-  {img:mark, name:'Mark Gray', role:'Director & Software Engr.', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:odun, name:'Odunayo Oke', role:'UI/UX Designer', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
+  {img:mark, name:'Mark Gray', role:'Director & Software Engr.', review:'What truly stands out about Abiodun is his incredible work ethic and relentless drive to go above and beyond to achieve project goals'},
+  {img:odun, name:'Odunayo Oke', role:'UI/UX Designer', review:'He has great ability to collaborate with designers to ensure that the final product is not only visually appealing but also technically sound.'},
   
-  {img:john, name:'John Chimezie', role:'Software Tester & Trainer', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:josh, name:'Olabode Joshua', role:'Software Tester', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'},
-  {img:greg, name:'Greg Otokhina', role:'Devops Engr.', review:'He possess a keen eye for detail, ensuring that the designs not only looked visually stunning but also functioned seamlessly across various devices and screen sizes.'}
+  {img:john, name:'John Chimezie', role:'Software Tester & Trainer', review:' I had the privilege of working alongside him, and I was continually impressed by his dedication to nurturing talent and sharing his expertise. '},
+  {img:josh, name:'Olabode Joshua', role:'Software Tester', review:'He possess a keen eye for detail, ensuring that the designs also functioned seamlessly across various devices and screen sizes.'},
+  {img:greg, name:'Greg Otokhina', role:'Devops Engr.', review:'I would highly recommend Abiodun Segun for any frontend development projects, his combination of exceptional technical skills set him apart'}
 ]
 const HappyClient = () => {
   const settings = {

@@ -4,9 +4,9 @@ import { GiBookCover } from 'react-icons/gi'
 import {Fade} from 'react-reveal'
 
 const myExp = [
-    {company:'Phasecurve Technology',role:'Frontend Developer',year:'2022 - Present', experience:'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.', link:'https://phasecurve.com/'},
-    {company:'Identitypass',role:'Frontend Developer (Internship)',year:'March 2022 - May 2022', experience:'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.', link:'https://www.myidentitypass.com/'},
-    {company:'The Bulb Africa',role:'Software Developer Fellow',year: 'May 2021 – Dec 2021', experience:'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.', link:'https://www.thebulb.africa/'}
+    {company:'Phasecurve Technology',role:'Frontend Developer',year:'2022 - Present', experience:'As a frontend developer at Phasecurve Technology, my primary responsibilities revolve around enhancing the user experience and functionality of our companys websites. This involves developing and redesigning web pages using technologies like React.js and json-server, ensuring that they are not only visually appealing but also intuitive and responsive.  One crucial aspect of my role is enabling users to sign up directly from our website, which involves creating secure and seamless registration processes, integrating authentication systems, and ensuring robust data handling practices to safeguard user information.', link:'https://phasecurve.com/'},
+    {company:'Identitypass',role:'Frontend Developer (Internship)',year:'March 2022 - May 2022', experience:'As a frontend developer intern at Identity Pass, I was embraced in a dynamic environment where I actively engaged with new technologies and methodologies. My primary responsibility was to learn and work with GraphQL, a powerful tool for data fetching and manipulation,  I was also tasked with fixing code issues and bugs within an Agile/SCRUM framework, which provided me with valuable insights into the iterative development process.', link:'https://www.myidentitypass.com/'},
+    {company:'The Bulb Africa',role:'Software Developer Fellow',year: 'May 2021 – Dec 2021', experience:'During my tenure as a Software Developer fellow at The Bulb Africa, I embarked on an enriching journey of skill acquisition and professional growth. Through hands-on experience and mentorship, I had the opportunity to track project progress and contribute to a collaborative development environment using GitHub, learning firsthand the importance of version control and effective project management practices.', link:'https://www.thebulb.africa/'}
 ]
 
 const education = [
@@ -16,9 +16,9 @@ const education = [
 const MyNewExp = () => {
   return (
     <section className='w-full h-full text-white font-poppins bg-gradient-to-r from-black to-purple-900 pb-12' id="experience">
-       <div className='flex flex-col py-20 md:py-24 px-[5%] max-w-[1400px] mx-auto' >
+       <div className='flex flex-col pt-20 pb-5 sm:py-20 md:py-24 px-[5%] max-w-[1400px] mx-auto' >
        <Fade duration="1500" left>
-                <div className='flex gap-3 mb-12 text-lg sm:text-xl md:text-2xl items-center justify-center sm:justify-normal text-[#6C4CDF]'>
+                <div className='flex gap-3 mb-6 sm:mb-12 text-lg sm:text-xl md:text-2xl items-center justify-center sm:justify-normal text-[#6C4CDF]'>
                 <FaLaptopCode />
                 
                 <h2 className=' text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>Experience</h2>
@@ -31,7 +31,7 @@ const MyNewExp = () => {
             <div className='flex gap-5 flex-wrap justify-between items-center'>
             <h3 className='font-semibold text-[20px] sm:text-[24px] text-primary'>{item.role}</h3>
             
-            <div className='flex text-[18px] font-semibold gap-2 items-center'>
+            <div className='flex ss:text-[18px] font-semibold gap-2 items-center'>
                     <span className='text-[#666]'>at</span>
                     <a href={item.link} target='_blank' className='text-secondary flex items-center gap-2'>
                     <p className='italic'>{item.company}</p>
@@ -40,16 +40,16 @@ const MyNewExp = () => {
             </div>
             </div>
             
-            <p className='text-secondary font-semibold text-[20px]'>{item.year}</p>
+            <p className='text-secondary font-semibold text-base ss:text-[20px]'>{item.year}</p>
             <p className='text-sm sm:text-base sm:tracking-wider text-[#f4f4f4]'>{item.experience}</p>
             </div>
         </Fade>
         </div>
         ))}
         
-        <div className='pt-24'>
+        <div className='pt-16 sm:pt-20 md:pt-24'>
         <Fade duration="1500" left>
-                <div className='flex gap-3 mb-12 items-center text-[#6C4CDF] text-lg justify-center sm:justify-normal sm:text-xl md:text-2xl '>
+                <div className='flex gap-3 mb-6 sm:mb-12 items-center text-[#6C4CDF] text-lg justify-center sm:justify-normal sm:text-xl md:text-2xl '>
                 <GiBookCover />
                 
                 <h2 className='text-transparent bg-clip-text bg-gradient-to-r from-[#6C4CDF] to-secondary'>Education</h2>
@@ -66,7 +66,7 @@ const MyNewExp = () => {
               <p className='sm:text-base font-medium text-secondary'>{item.year}</p>
             </div>
             
-            <p className='text-base italic font-medium tracking-wider text-[#f4f4f4]'>
+            <p className='sm:text-base italic font-medium tracking-wider text-[#f4f4f4]'>
             {item.tutor}
             </p>
             </div>
