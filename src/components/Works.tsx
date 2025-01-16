@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GrFormNextLink } from "react-icons/gr";
 import {Fade} from 'react-reveal';
 import gingerex from '../assets/gingerex-img.jpg'
-import laygos from '../assets/laygos-img.jpg'
+import zeit from '../assets/zeit-icon.png'
 import tiddix from '../assets/Tiddix-img.jpg'
 import phasecurve from '../assets/phasecurve-img.jpg'
 
@@ -23,10 +23,10 @@ const workContent = [
   },
   {
     id: "03",
-    title: "LaygosWatercrafts",
-    desc: "My ability to conceptualise, design, and develop web applications that prioritise payment service functionality and security is demonstrated in this project. ",
-    bgImg: laygos,
-    path: "https://www.laygoswatercrafts.com/",
+    title: "Zeit Consulting",
+    desc: "My ability to conceptualise, design, and develop a website that highlights the importance of business consultation as demonstrated in this project. ",
+    bgImg: zeit,
+    path: "https://www.zeitconsultinginc.com/",
   },
   {
     id: "04",

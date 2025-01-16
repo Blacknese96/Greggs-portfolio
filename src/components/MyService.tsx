@@ -34,8 +34,8 @@ const MyService = () => {
         },
         {
             id: '04',
-            title: 'Technical Trainer',
-            desc: 'Opportunity to impart knowledge and enthusiasm about Web development to the next generation',
+            title: 'DevOps Engineer',
+            desc: ' Skilled in automating workflows using tools like Jenkins, Docker, Kubernetes, and Ansible for continuous integration and deployment.',
         },
     ];
 
