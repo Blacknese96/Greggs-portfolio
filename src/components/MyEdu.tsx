@@ -3,15 +3,14 @@ import { GiBookCover } from "react-icons/gi";
 import {Zoom} from 'react-reveal'
 
 const myExp = [
-    {year:'2022 - Present',company:'Phasecurve Technology', role:'Frontend Developer', address:'Oniru, VI. Lagos'},
-    {year:'March 2022 - May 2022',company:'Identity Pass', role:'Front-End Developer (Internship)', address:'Remote'},
-    {year:'May 2021 – Dec 2021', role:'Software Developer Fellow',company:'The Bulb Africa', address:'Jibowu, Lagos'}
+    {year:'2022 - 2024',company:'Phasecurve Technologies', role:'Fullstack Developer/DevOps Engineer', address:'Oniru, VI. Lagos'},
+    {year:'March 2020 - May 2020',company:'Global Initiative Microfinance Bank', role:'Graphics Designer', address:'Remote'},
 ]
 
 const education = [
-    {year:'November 27, 2023', course:'React Learning Program',tutor:' Andela '},
-    {year:'February, 2020', course:'Entrepreneurship & Bus Admin',tutor:' National Open University Of Nig.'},
-    {year:'July, 2012', course:'WAEC/NECO',tutor:' Igbobi College Yaba '},
+    {year:'2018 - 2019', course:'Bsc.Information Technology and Business Information Sysyems',tutor:'Middlesex University'},
+    {year:'2014 - 2016', course:'Advanced Diploma, Software Engineering',tutor:' Aptech '},
+    {year:'2012 - 2014', course:'WAEC/NECO',tutor:' St. Jude Private Schools '},
 ]
 const MyEdu = () => {
     
