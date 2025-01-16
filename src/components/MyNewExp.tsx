@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 
 const myExp = [
     {company:'Phasecurve Technologies',role:'Fullstack Developer/ DevOps Engineer',year:'2022 - 2024', experience:'As a Fullstack Developer at Phasecurve Technologies, my primary responsibilities revolve around enhancing the user experience and backend functionalities of the companys websites. This involves developing and redesigning web pages using technologies like React.js and json-server, ensuring that they are not only visually appealing but also intuitive and responsive. Also, my role as DevOps Engineer allowed me to gather hands-on experience in cloud architecture, CI/CD pipelines, and containerization while working on projects.', link:'https://phasecurve.com/'},
-    {company:'Global Initiative Microfinance Bank',role:'Graphics Designer',year:'March 2020 - May 2020', experience:'As the graphics designer, I designed a custom social logo for their website based on the client brand design, and reviewed final layouts of the logo'},
+    {company:'Global Initiative Microfinance Bank',role:'Graphics Designer',year:'March 2020 - May 2020', experience:'As the graphics designer, I designed a custom social logo for their website based on the client brand design, and reviewed final layouts of the logo.'},
 ]
 
 const education = [
