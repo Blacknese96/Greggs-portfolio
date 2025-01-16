@@ -60,8 +60,8 @@ export function NavBar() {
           
           </a>
           
-          <a href="mailto:abiodun_segun10@yahoo.com" target="_blank" className='text-sm font-medium hover:text-secondary text-white hover:underline transform transition-transform duration-300 hover:scale-105'>
-          abiodun_segun10@yahoo.com
+          <a href="mailto:gregoryotokhina@gmail.com" target="_blank" className='text-sm font-medium hover:text-secondary text-white hover:underline transform transition-transform duration-300 hover:scale-105'>
+          gregoryotokhina@gmail.com
           </a>
           
         </div>
