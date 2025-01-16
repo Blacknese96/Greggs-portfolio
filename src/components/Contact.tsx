@@ -21,11 +21,11 @@ const Contact = () => {
     
     <div className="flex flex-col gap-5">
     
-    <a href="mailto:abiodun_segun10@yahoo.com" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
+    <a href="mailto:gregoryotokhina@gmail.com" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
     <div className='rounded-full p-3 bg-primary'><MdOutgoingMail fontSize="24px"/></div>
     <div className="flex flex-col  max-w-[471px]">
     <p className="text-sm text-[#ccc]">Email</p>
-    <p className='font-medium sm:text-base'>abiodun_segun10@yahoo.com</p>
+    <p className='font-medium sm:text-base'>gregoryotokhina@gmail.com</p>
     </div>
     </a>
     
@@ -33,24 +33,24 @@ const Contact = () => {
     <div className='rounded-full p-3 bg-primary'><MdCall fontSize="24px"/></div>
     <div className="flex flex-col  max-w-[471px]">
     <p className="text-sm text-[#ccc]">Phone</p>
-    <p className='font-medium sm:text-base'>+234 706 154 1186</p>
+    <p className='font-medium sm:text-base'>+234 812 055 3941</p>
     </div>
     </div>
    
     
-    <a href="https://github.com/realshegz-github" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
+    <a href="https://github.com/Blacknese96" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
     <div className='rounded-full p-3 bg-primary'><GrGithub fontSize="24px"/></div>
     <div className="flex flex-col  max-w-[471px]">
     <p className="text-sm text-[#ccc]">GitHub</p>
-    <p className='font-medium sm:text-base'>realshegz-github</p>
+    <p className='font-medium sm:text-base'>Blacknese96</p>
     </div>
     </a>
 
-    <a href="https://www.linkedin.com/in/segun-abiodun-3987381b7/" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
+    <a href="https://www.linkedin.com/in/gregory-otokhina-114822182/" target="_blank" className='flex items-center gap-5 sm:gap-8 hover:underline transform transition-transform duration-300 hover:scale-105'>
     <div className='rounded-full p-3 bg-primary'><FaLinkedin fontSize="24px"/></div>
     <div className="flex flex-col max-w-[471px]">
     <p className="text-sm text-[#ccc]">Linkedin</p>
-    <p className='font-medium sm:text-base'>Segun Abiodun</p>
+    <p className='font-medium sm:text-base'>Otokhina Gregory</p>
     </div>
     </a>
 
@@ -58,7 +58,7 @@ const Contact = () => {
     <div className='rounded-full p-3 bg-primary'><MdLocationPin fontSize="24px"/></div>
     <div className="flex flex-col  max-w-[471px]">
     <p className="text-sm text-[#ccc]">Location</p>
-    <p className='font-medium sm:text-base'>Gbagada, Lagos Nig.</p>
+    <p className='font-medium sm:text-base'>Maryland, Lagos Nig.</p>
     </div>
     </div>
     </div>

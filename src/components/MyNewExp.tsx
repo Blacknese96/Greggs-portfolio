@@ -4,14 +4,14 @@ import { GiBookCover } from 'react-icons/gi'
 import {Fade} from 'react-reveal'
 
 const myExp = [
-    {company:'Phasecurve Technology',role:'Frontend Developer',year:'2022 - Present', experience:'As a frontend developer at Phasecurve Technology, my primary responsibilities revolve around enhancing the user experience and functionality of our companys websites. This involves developing and redesigning web pages using technologies like React.js and json-server, ensuring that they are not only visually appealing but also intuitive and responsive.  One crucial aspect of my role is enabling users to sign up directly from our website, which involves creating secure and seamless registration processes, integrating authentication systems, and ensuring robust data handling practices to safeguard user information.', link:'https://phasecurve.com/'},
+    {company:'Phasecurve Technologies',role:'Fullstack Developer/ DevOps Engineer',year:'2022 - 2024', experience:'As a Fullstack Developer at Phasecurve Technologies, my primary responsibilities revolve around enhancing the user experience and backend functionalities of the companys websites. This involves developing and redesigning web pages using technologies like React.js and json-server, ensuring that they are not only visually appealing but also intuitive and responsive. Also, my role as DevOps Engineer allowed me to gather hands-on experience in cloud architecture, CI/CD pipelines, and containerization while working on projects.', link:'https://phasecurve.com/'},
     {company:'Identitypass',role:'Frontend Developer (Internship)',year:'March 2022 - May 2022', experience:'As a frontend developer intern at Identity Pass, I was embraced in a dynamic environment where I actively engaged with new technologies and methodologies. My primary responsibility was to learn and work with GraphQL, a powerful tool for data fetching and manipulation,  I was also tasked with fixing code issues and bugs within an Agile/SCRUM framework, which provided me with valuable insights into the iterative development process.', link:'https://www.myidentitypass.com/'},
     {company:'The Bulb Africa',role:'Software Developer Fellow',year: 'May 2021 – Dec 2021', experience:'During my tenure as a Software Developer fellow at The Bulb Africa, I embarked on an enriching journey of skill acquisition and professional growth. Through hands-on experience and mentorship, I had the opportunity to track project progress and contribute to a collaborative development environment using GitHub, learning firsthand the importance of version control and effective project management practices.', link:'https://www.thebulb.africa/'}
 ]
 
 const education = [
-  {year:'November 27, 2023', course:'React Learning Program',tutor:' Andela '},
-  {year:'February, 2020', course:'B.sc in Entrepreneurship & Business Mgt',tutor:' National Open University Of Nig.'},
+  {year:'November 27, 2019', course:'Bsc, Information Technology and Business Information Systems',tutor:' Middlesex University '},
+  {year:'February, 2014 - November 15, 2016', course:'Advanced Diploma, Software Engineering',tutor:' Aptech '},
 ]
 const MyNewExp = () => {
   return (
