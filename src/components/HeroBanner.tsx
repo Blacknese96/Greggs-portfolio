@@ -26,10 +26,10 @@ import CountUpExp from './CountUp';
     };
     
     const onButtonClick = () => {
-      const pdfUrl = "resume.pdf";
+      const pdfUrl = "Resume.pdf";
       const link = document.createElement("a");
       link.href = pdfUrl;
-      link.download = "Abiodun.pdf"; // specify the filename
+      link.download = "Greg.pdf"; // specify the filename
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
